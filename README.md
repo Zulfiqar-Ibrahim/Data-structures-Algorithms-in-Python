@@ -1,2 +1,2 @@
-# Machine-Learning-Projects
-This Repository is about Machine Learning Projects and new related algorithms.
+# Data Structures and Algorithm in Python
+This Repository is about understanding of complex data structures and  implementation of algorithm in Python.
