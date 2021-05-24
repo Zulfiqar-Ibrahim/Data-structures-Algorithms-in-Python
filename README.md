@@ -15,10 +15,10 @@ Effectiveness (Must produce expected results)
 
 ### Example
 A=8,2,9,4,2
-  0 1 2 3 4
+
 n=5
   
-'''C++
+```C++
 int sum(A,n)
 {
 	s=0;
@@ -28,5 +28,12 @@ int sum(A,n)
 	}
 return s
 }
-'''
+```
+
+```python
+def function():
+    #indenting works just fine in the fenced code block
+    s = "Python code"
+    print s
+```
 
