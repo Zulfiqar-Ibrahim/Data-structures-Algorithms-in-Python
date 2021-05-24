@@ -30,7 +30,11 @@ return s // 1
 }
 ```
 Time complexity F(n)= 2n+1 .
-Order(n) .
+
+
+Order(n)
+
+
 A----n
 
 
@@ -45,8 +49,17 @@ i----1 ,
 
 Space complexity S(n)=n+3 (number of variable used in computation).
 
-sone 
+Some Time complexity formulas for forloops
 
+
+```C++
+for(i=0;i<n;i++) // O(n)
+for(i=0;i<n;i+2) // n/2 O(n)
+for(i=i;i>1;i--) // O(n)
+for(i=0;i<n;i*2) // O(log_2 n)
+for(i=0;i<n;i*3) // O(log_3 n)
+for(i=0;i<n;i=i/2) // O(log_2 n)
+```
 
 
 
