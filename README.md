@@ -14,7 +14,7 @@ Finiteness (There must be end of algorithm)
 Effectiveness (Must produce expected results)
 
 ### Example
-A=8,2,9,4,2
+A=8,2,9,4,2 
 
 n=5
   
@@ -31,10 +31,10 @@ return s // 1
 ```
 Time complexity F(n)= 2n+1 .
 Order(n) .
-A----n .
-n----1 .
-s----1 .
-i----1 .
+A----n ,
+n----1 ,
+s----1 ,
+i----1 ,
 Space complexity S(n)=n+3 (number of variable used in computation).
 
 
