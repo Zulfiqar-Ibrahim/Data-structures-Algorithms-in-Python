@@ -60,6 +60,19 @@ for(i=0;i<n;i*2) // O(log_2 n)
 for(i=0;i<n;i*3) // O(log_3 n)
 for(i=0;i<n;i=i/2) // O(log_2 n)
 ```
+Time complexity of while loop
+
+```C++
+i=0 //1
+while(i<n) // n+1
+{
+   statement; // n
+   i++;       // n
+}
+```
+F(n) = 3n+1
+
+O(n)
 
 
 
