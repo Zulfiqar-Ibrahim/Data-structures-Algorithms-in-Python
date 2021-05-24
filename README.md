@@ -10,7 +10,7 @@ A prior analysis is performed on algorithm and it is language/hardware independe
 CHaracteristics of Algorithm:
 input/output
 Definitness (Every step is crystel clear)
-Finiteness ( There must be end of algorithm)
+Finiteness (There must be end of algorithm)
 Effectiveness (Must produce expected results)
 
 ### Example
@@ -24,11 +24,19 @@ int sum(A,n)
    s=0; // 1
    for(i=0;i<n;i++) // n+1
    {
-      s=s+A[i]; //n
+      s=s+A[i]; // n
    }
 return s // 1
 }
 ```
+Time complexity F(n)= 2n+1
+Order(n)
+A----n
+n----1
+s----1
+i----1
+Space complexity S(n)=n+3 (number of variable used in computation) 
+
 
 
 
