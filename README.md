@@ -21,11 +21,11 @@ n=5
 ```C++
 int sum(A,n)
 {
-	s=0;
-	for(i=0;i<n;i++)
-	{
-	s=s+A[i];
-	}
+   s=0;
+   for(i=0;i<n;i++)
+   {
+      s=s+A[i];
+   }
 return s
 }
 ```
