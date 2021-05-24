@@ -24,16 +24,11 @@ int sum(A,n)
 	s=0;
 	for(i=0;i<n;i++)
 	{
-		s=s+A[i];
+	s=s+A[i];
 	}
 return s
 }
 ```
 
-```python
-def function():
-    #indenting works just fine in the fenced code block
-    s = "Python code"
-    print s
-```
+
 
