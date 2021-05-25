@@ -98,5 +98,13 @@ Big Omega notation ( 1 < log n < UnderRoot n < n)
 ### Example
 
 
-A function F(n)=O(g(n)) iff +iv constant c<sub>o</sub> such that f(n) <= c * g(n) and n>=n<sub>o</sub>
+Big Oh == A function F(n)=O(g(n)) iff +iv constant c<sub>o</sub> such that f(n) <= c * g(n) and n>=n<sub>o</sub>
+
+F(n)=2n+1 <= 2n + 3n 
+
+
+F(n)=2n+1 <= 5n
+
+This F(n) is of class Big oh.
+
 
