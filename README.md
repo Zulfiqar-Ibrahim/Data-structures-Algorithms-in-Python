@@ -74,5 +74,8 @@ F(n) = 3n+1
 
 O(n)
 
+### Asymptotics Notations 
+
+Ω
 
 
