@@ -76,7 +76,7 @@ O(n)
 
 ### Asymptotics Notations 
 
-Ω
+1 < log n < UnderRoot n < n < nlog n < n<sup>2</sup> < n<sup>2</sup> <  n<sup>3</sup> <....< 2<sup>n</sup> <  3<sup>n</sup> ..... <  n<sup>n</sup>
 
 
  x<sup>2</sup>
