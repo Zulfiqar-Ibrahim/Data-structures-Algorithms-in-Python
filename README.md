@@ -98,5 +98,5 @@ Big Omega notation ( 1 < log n < UnderRoot n < n)
 ### Example
 
 
-A function F(n)=O(g(n)) igg +iv constant c<sub>o</sub> such that f(n) <= c*g(n) and n>=n<sub>o</sub>
+A function F(n)=O(g(n)) iff +iv constant c<sub>o</sub> such that f(n) <= c * g(n) and n>=n<sub>o</sub>
 
