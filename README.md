@@ -115,7 +115,7 @@ Omega == A function F(n)= Ω(g(n)) iff +iv constant c<sub>o</sub> such that f(n)
 F(n)=2n+3 >= 1 * n   such that n >= 1 
 
 
-F(n)         c   g(n)
+F(n)                            c                 g(n)
 
  
 
