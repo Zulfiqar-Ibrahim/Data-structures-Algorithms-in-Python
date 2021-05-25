@@ -108,3 +108,17 @@ F(n)=2n+1 <= 5n
 This F(n) is of class Big oh.
 
 
+
+Omega == A function F(n)= Ω(g(n)) iff +iv constant c<sub>o</sub> such that f(n) >= c * g(n) and n>=n<sub>o</sub>
+
+
+F(n)=2n+3 >= 1 * n   such that n >= 1 
+
+
+F(n)         c   g(n)
+
+ 
+
+
+
+
