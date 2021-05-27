@@ -56,6 +56,9 @@ class Recursive:
         return -1
 
     def binary_search_recursive_method(self, low , high, k):
+        """[This is the Recursive method of binary search. First condition of B.S is that list must be in 
+        sorted form. Binary search algorithm is following the D & C strategy ]
+        """
 
         list_numbers=[3,6,8,12,14,17,25,29,31,36,42,47,53,55,62]
 
