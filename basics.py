@@ -96,3 +96,4 @@ print('length of numbers is ',len(numbers))
 l=1
 R=len(numbers)
 print('mid is ',(l+R)/2)
+

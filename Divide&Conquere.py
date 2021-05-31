@@ -1,8 +1,58 @@
-''' 
-In this we will use Divide & Conquere  strategy for the solution of problems. Recursive functions play very
-important role in the D&C technique.
-'''
-class Recursive:
+
+class Recursive:    
+    """ 
+
+    In this we will use Divide & Conquere  strategy for the solution of problems. Recursive functions play very
+    important role in the D&C technique.
+
+    ...
+
+    Atributes:
+
+    ----------
+    name:
+
+    value_a : int
+
+        Base case for recursion
+
+    number : int 
+
+        key value to be searched.
+    low : int
+
+        lowest left side of array
+
+    high : int
+
+        higher right side of array
+
+    Methods:
+
+    --------
+
+    recursive(self,value_a):
+
+    This funtion is written to decrementing numbers from starting numbers
+    using recursive method. This methad keep calling itself untill it reaches
+    boundry. Print() will be called n times. O(n) is time complexity of this recursive function
+
+
+    binary_search_iterative_method(self,number):
+
+    This is the iterative method of binary search. First condition of B.S is that list must be in 
+    orted form. Binary search algorithm is following the D & C strategy 
+
+    binary_search_recursive_method(self,low , high, k):
+
+    This is the Recursive method of binary search. First condition of B.S is that list must be in 
+    sorted form. Binary search algorithm is following the D & C strategy.
+
+    
+
+
+
+    """
 
     def __init__(self,number):
         print('object crafted')
@@ -18,6 +68,7 @@ class Recursive:
         [This funtion is written to decrementing numbers from starting numbers
         using recursive method. This methad keep calling itself untill it reaches
         boundry. Print() will be called n times. O(n) is time complexity of this recursive function]
+
         """
 
         #print(value_a)
