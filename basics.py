@@ -95,5 +95,7 @@ numbers=[1,2,3,4,5]
 print('length of numbers is ',len(numbers))
 l=1
 R=len(numbers)
+print(numbers[R-1])
+print(R)
 print('mid is ',(l+R)/2)
 
