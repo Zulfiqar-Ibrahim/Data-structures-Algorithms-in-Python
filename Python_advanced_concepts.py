@@ -103,3 +103,23 @@ print(next(values))
 print(next(values))
 print(next(values))
 
+'''
+/env /usr/bin/python3 /home/zulfiqar/.vscode/extensions/ms-python.python-2021.9.1191016588/pythonFiles/lib/python/debugpy/launcher 44347 -- "/home/zulfiqar/Data Structures and Algorithm in Python/Python_advanced_concepts.py" 
+60
+80
+X: 60, Y: 80
+10
+I am the object and I was called
+I am the object and I was called
+I am the object and I was called
+I am decorating thei function 
+hello Mike
+0
+1
+8
+27
+64
+125
+216
+object is being Destroyed
+'''
