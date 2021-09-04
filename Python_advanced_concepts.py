@@ -1,5 +1,5 @@
 '''
-Here in this script , I ma going to implement advance concepts of the python language which are more lenient towards 
+Here in this script , I am going to implement advance concepts of the python language which are more lenient towards 
 Software Engineering concepts. We want to write code which is more readable, scaleable, reuseable and to achieve this
 we have to use concepts like decorators, functional, Dunders, Magic methods, lambda, list comprehensions etc. 
 
