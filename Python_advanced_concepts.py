@@ -81,4 +81,25 @@ def hello_myWorld(person):
 print(hello_myWorld("Mike"))
 
 
+# Generators 
+
+# if we wantto create sequence of number from 1 to 10 million then normally we can use range function in forloop but range() has some limitation
+# this is where we use generators which will give use the vlaue of sequence on DEMAND
+
+def myGenerator(n):
+
+    for x in range(n):
+        yield x**3
+
+values = myGenerator(90000000)
+
+
+# every values call function and produces next value
+print(next(values))
+print(next(values))
+print(next(values))
+print(next(values))
+print(next(values))
+print(next(values))
+print(next(values))
 
