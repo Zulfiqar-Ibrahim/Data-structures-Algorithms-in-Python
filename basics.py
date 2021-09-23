@@ -99,3 +99,39 @@ print(numbers[R-1])
 print(R)
 print('mid is ',(l+R)/2)
 
+a = "my name is zulfiqar Ibrahim"
+counter = 0
+for itr in range (0,len(a)):
+    letter = a[itr]
+    if letter == ' ':
+        counter += 1 
+        
+print("number of spaces ",counter)
+
+def wordcount(myString):
+    tempCount = 0
+    count = 0
+    
+    try:
+        
+        for character in myString:
+            if character == " ":
+                tempCount += 1
+                
+                if tempCount == 1:
+                    
+                    count += 1
+                else:
+                    tempCount += 1
+            else:
+                tempCount = 0
+        return count
+                
+        
+    except Exception:
+        error = "Not A String "
+        
+        return error
+        
+
+print(wordcount("I   am having   a    very nice 23!@$      day"))
