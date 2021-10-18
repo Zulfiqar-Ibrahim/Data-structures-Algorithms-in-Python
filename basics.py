@@ -135,3 +135,46 @@ def wordcount(myString):
         
 
 print(wordcount("I   am having   a    very nice 23!@$      day"))
+
+slice_list = ["a", "b", "c", "d", "e", "f", "g", "h"]
+
+x = slice(3,5)
+
+print(slice_list[x])
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)
+
+fruits = {"apple", "banana", "cherry"}
+It_companies = {"google", "microsoft", "apple"}
+
+z = fruits.difference(It_companies) 
+
+print(z)
+
+my_dict = {
+    1:[1,2,3,4,5,6,7,8],
+    2:[0.2,0.3,0.5,2.4,5.2,8.1],
+    3:[9,8,3,12,45,87,0,1,2,1,1]
+}
+count=0
+i=0
+for key in my_dict.keys():
+    
+    a=my_dict[key]
+    
+    for value in a:
+        i += 1
+        count += value
+    
+    print('Addition of list ',count,i)
+    count = count / i
+    print('Average of list ',count)
+    i=0
+    count = 0
+    
+    mylist=[x for x in range(10) if x%2==0]
+    print(mylist)
